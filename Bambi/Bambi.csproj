@@ -72,6 +72,7 @@
     <Content Include="WebForms\AboutUs.aspx" />
     <Content Include="WebForms\Calculator.aspx" />
     <Content Include="WebForms\Calendar.aspx" />
+    <Content Include="WebForms\Clients.aspx" />
     <Content Include="WebForms\Content\Style.css" />
     <Content Include="WebForms\Default.aspx" />
     <Content Include="WebForms\Jobs.aspx" />
@@ -103,6 +104,13 @@
     </Compile>
     <Compile Include="WebForms\Calendar.aspx.designer.cs">
       <DependentUpon>Calendar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms\Clients.aspx.cs">
+      <DependentUpon>Clients.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\Clients.aspx.designer.cs">
+      <DependentUpon>Clients.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForms\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
