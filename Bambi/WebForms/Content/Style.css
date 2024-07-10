@@ -5,34 +5,42 @@
     font-family: 'Roboto';
 }
 
+body{
+    padding-top: 80px;
+}
 
-/* NAVBAR */
+/* Navbar */
 
 .navbar {
     background-color: transparent;
 }
 
-    .navbar .navbar-brand {
-        color: black;
-        font-family: 'DM Serif Display';
-        font-size: 30px;
+    .navbar .container {
+        max-width: 70% !important;
     }
 
-    .navbar ul .dropdown-menu {
-        border: thin;
-        box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.2);
+@media (max-width: 991px) {
+    .navbar .container {
+        max-width: 100% !important;
     }
-
-    .navbar .nav-link {
-        color: black;
-        font-weight: 500;
-    }
-
-        .navbar .nav-link:hover {
-            color: #6c6c6c;
-        }
-
-/* FOOTER */
-footer p{
-    font-family: 'DM Serif Display';
 }
+
+.navbar .navbar-brand {
+    color: black;
+    font-family: 'DM Serif Display';
+    font-size: 30px;
+}
+
+.navbar ul .dropdown-menu {
+    border: 0;
+    box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.2);
+}
+
+.navbar .nav-link {
+    color: black;
+    font-weight: 500;
+}
+
+    .navbar .nav-link:hover {
+        color: #6c6c6c;
+    }

@@ -28,34 +28,36 @@
 <body>
     <!-- Main Form -->
     <form id="form1" runat="server">
-        <div class="container">
 
-            <!-- Nav -->
-            <nav class="navbar navbar-expand-lg fixed top">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="Default.aspx">Bambi</a>
+        <!-- Nav -->
+                <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container" style="max-width: 70%;">
+                <a class="navbar-brand" href="Default.aspx">Bambi</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Útiles</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="Jobs.aspx">Mis Trabajos</a></li>
+                                <li><a class="dropdown-item" href="Calendar.aspx">Calendario</a></li>
+                                <li><a class="dropdown-item" href="Calculator.aspx">Calculadora</a></li>
+                                <li><a class="dropdown-item" href="Clients.aspx">Clientes</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="https://www.instagram.com/direct/inbox/" target="_blank">Instagram Inbox <i class="bi bi-box-arrow-up-right" style="font-size: 12px;"></i></a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="AboutUs.aspx">Conocenos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Login.aspx">Ingresar</a></li>
+                        <li class="nav-item"><a class="nav-link" href="SignUp.aspx">Crear cuenta</a></li>
+                    </ul>
                 </div>
-                <ul class="nav container-fluid justify-content-end">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Útiles</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="Jobs.aspx">Mis Trabajos</a></li>
-                            <li><a class="dropdown-item" href="Calendar.aspx">Calendario</a></li>
-                            <li><a class="dropdown-item" href="Calculator.aspx">Calculadora</a></li>
-                            <li><a class="dropdown-item" href="Clients.aspx">Clientes</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="https://www.instagram.com/direct/inbox/" target="_blank">Instagram Inbox <i class="bi bi-box-arrow-up-right" style="font-size: 12px;"></i></a></li>
-                        </ul>
-                    </li>
-                    <li class="navbar-nav"><a class="nav-link" href="AboutUs.aspx">Conocenos</a></li>
-                    <li class="navbar-nav"><a class="nav-link" href="Login.aspx">Ingresar</a></li>
-                    <li class="navbar-nav"><a class="nav-link" href="SignUp.aspx">Crear cuenta</a></li>
+            </div>
+        </nav>
 
-                </ul>
-            </nav>
-
+        <div class="container" style="max-width: 70%;">
             <!-- Main Content -->
             <div>
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
@@ -67,12 +69,11 @@
             <div class="footer-container mt-5">
                 <div class="container">
                     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-                        <p class="col-md-4 mb-0">Bambi &copy; by Juan Pereyra</p>
-                        <a href="https://github.com/juanpereyrajmp/Bambi" target="_blank" class="nav-link"><i class="bi bi-github"></i> juanpereyrajmp</a>
+                        <p class="col-md-4 mb-0" style="font-family: 'Roboto';"><span style="font-family: 'DM Serif Display'; font-size: 17px;">Bambi</span> &copy; by Juan Pereyra</p>
+                        <a href="https://github.com/juanpereyrajmp/Bambi" target="_blank" class="nav-link"><i class="bi bi-github"></i>juanpereyrajmp</a>
                     </footer>
                 </div>
             </div>
-
         </div>
     </form>
 
