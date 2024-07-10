@@ -4,8 +4,10 @@
 * {
     font-family: 'Roboto';
 }
-
-body{
+html{
+    scroll-behavior: smooth;
+}
+body {
     padding-top: 80px;
 }
 
@@ -13,6 +15,7 @@ body{
 
 .navbar {
     background-color: transparent;
+    z-index: 99;
 }
 
     .navbar .container {

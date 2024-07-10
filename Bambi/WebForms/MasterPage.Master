@@ -30,7 +30,7 @@
     <form id="form1" runat="server">
 
         <!-- Nav -->
-                <nav class="navbar navbar-expand-lg fixed-top">
+        <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container" style="max-width: 70%;">
                 <a class="navbar-brand" href="Default.aspx">Bambi</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,7 +45,9 @@
                                 <li><a class="dropdown-item" href="Calendar.aspx">Calendario</a></li>
                                 <li><a class="dropdown-item" href="Calculator.aspx">Calculadora</a></li>
                                 <li><a class="dropdown-item" href="Clients.aspx">Clientes</a></li>
-                                <li><hr class="dropdown-divider"></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
                                 <li><a class="dropdown-item" href="https://www.instagram.com/direct/inbox/" target="_blank">Instagram Inbox <i class="bi bi-box-arrow-up-right" style="font-size: 12px;"></i></a></li>
                             </ul>
                         </li>
@@ -57,7 +59,9 @@
             </div>
         </nav>
 
+
         <div class="container" style="max-width: 70%;">
+
             <!-- Main Content -->
             <div>
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
@@ -75,6 +79,7 @@
                 </div>
             </div>
         </div>
+
     </form>
 
     <!-- Bootstrap JS -->
