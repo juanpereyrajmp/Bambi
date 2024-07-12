@@ -5,7 +5,9 @@
 <html>
 <head runat="server">
 
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
 
     <title>Bambi</title>
     <link rel="icon" href="#" />
@@ -31,26 +33,13 @@
 
         <!-- Nav -->
         <nav class="navbar navbar-expand-lg fixed-top">
-            <div class="container" style="width: 70%;">
+            <div class="container">
                 <a class="navbar-brand" href="Default.aspx">Bambi</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Útiles</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="Jobs.aspx">Mis Trabajos</a></li>
-                                <li><a class="dropdown-item" href="Calendar.aspx">Calendario</a></li>
-                                <li><a class="dropdown-item" href="Calculator.aspx">Calculadora</a></li>
-                                <li><a class="dropdown-item" href="Clients.aspx">Clientes</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="https://www.instagram.com/direct/inbox/" target="_blank">Instagram Inbox <i class="bi bi-box-arrow-up-right" style="font-size: 12px;"></i></a></li>
-                            </ul>
-                        </li>
                         <li class="nav-item"><a class="nav-link" href="AboutUs.aspx">Conocenos</a></li>
                         <li class="nav-item"><a class="nav-link" href="Login.aspx">Ingresar</a></li>
                         <li class="nav-item"><a class="nav-link" href="SignUp.aspx">Crear cuenta</a></li>
@@ -60,7 +49,7 @@
         </nav>
 
 
-        <div class="container" style="width: 70%;">
+        <div class="container">
 
             <!-- Main Content -->
             <div>
@@ -71,12 +60,10 @@
             <!-- Footer -->
 
             <div class="footer-container mt-5">
-                <div class="container">
-                    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-                        <p class="col-md-4 mb-0" style="font-family: 'Roboto';"><span style="font-family: 'DM Serif Display'; font-size: 17px;">Bambi</span> &copy; by Juan Pereyra</p>
-                        <a href="https://github.com/juanpereyrajmp/Bambi" target="_blank" class="nav-link"><i class="bi bi-github"></i>juanpereyrajmp</a>
-                    </footer>
-                </div>
+                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                    <p class="col-md-4 mb-0" style="font-family: 'Roboto';"><span style="font-family: 'DM Serif Display'; font-size: 17px;">Bambi</span> &copy; by Juan Pereyra</p>
+                    <a href="https://github.com/juanpereyrajmp/Bambi" target="_blank" class="nav-link"><i class="bi bi-github"></i>juanpereyrajmp</a>
+                </footer>
             </div>
         </div>
 
@@ -85,5 +72,7 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/af9212b45d.js" crossorigin="anonymous"></script>
 </body>
 </html>

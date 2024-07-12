@@ -75,14 +75,21 @@
     <Content Include="WebForms\Clients.aspx" />
     <Content Include="WebForms\Content\Style.css" />
     <Content Include="WebForms\Default.aspx" />
+    <Content Include="WebForms\JobDetail.aspx" />
     <Content Include="WebForms\Jobs.aspx" />
     <Content Include="WebForms\Login.aspx" />
+    <Content Include="WebForms\Services.aspx" />
     <Content Include="WebForms\SignUp.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data\DataAccess.cs" />
+    <Compile Include="Domain\Address.cs" />
+    <Compile Include="Domain\Job.cs" />
+    <Compile Include="Domain\Service.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Manager\JobsManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebForms\AboutUs.aspx.cs">
       <DependentUpon>AboutUs.aspx</DependentUpon>
@@ -119,6 +126,13 @@
     <Compile Include="WebForms\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="WebForms\JobDetail.aspx.cs">
+      <DependentUpon>JobDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\JobDetail.aspx.designer.cs">
+      <DependentUpon>JobDetail.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebForms\Jobs.aspx.cs">
       <DependentUpon>Jobs.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -139,6 +153,13 @@
     </Compile>
     <Compile Include="WebForms\MasterPage.Master.designer.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms\Services.aspx.cs">
+      <DependentUpon>Services.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\Services.aspx.designer.cs">
+      <DependentUpon>Services.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForms\SignUp.aspx.cs">
       <DependentUpon>SignUp.aspx</DependentUpon>
@@ -161,8 +182,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="DatabaseAccess\" />
-    <Folder Include="Domain\" />
-    <Folder Include="Manager\" />
     <Folder Include="Models\" />
     <Folder Include="WebForms\Images\" />
   </ItemGroup>
