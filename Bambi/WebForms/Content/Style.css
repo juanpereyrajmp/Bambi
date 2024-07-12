@@ -13,25 +13,26 @@ body {
 
 /* Navbar */
 
-.navbar {
-    background-color: transparent;
+.navbar{
+    background-color: white;
+    height: 60px;
     z-index: 99;
 }
 
     .navbar .container {
-        max-width: 70% !important;
+        max-width: 70%;
     }
 
-@media (max-width: 991px) {
-    .navbar .container {
-        max-width: 100% !important;
+    .navbar .navbar-brand {
+        color: black;
+        font-family: 'DM Serif Display';
+        font-size: 30px;
+        margin-left: 1px;
     }
-}
 
-.navbar .navbar-brand {
-    color: black;
-    font-family: 'DM Serif Display';
-    font-size: 30px;
+.navbar .navbar-brand:hover{
+    font-size: 31px;
+    margin-left: -1px;
 }
 
 .navbar ul .dropdown-menu {

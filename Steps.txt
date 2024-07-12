@@ -1,0 +1,18 @@
+HOME - próximos eventos - descargar pdfs precios - 
+
+TRABAJOS - listado de trabajos con botones de búsqueda - ver detalle con mapa (ver api maps o similar)
+
+CLIENTES - Listado de clientes - agregar nuevo - eliminar - editar
+
+CALENDARIO - calendario con trabajos (ver api calendar o similar)
+
+CALCULADORA - Misma que Excel - Calcula hora de Inicio en base a hora Fin usando la cantidad de trabajosTipos y sus duraciones
+
+SERVICIOS - Listado (Servicio, Precio, Duracion) - modificar - eliminar - agregar nuevo - asignar a grupo - abm grupos - crear pdf -> (cargar imagen de fondo)
+
+
+
+
+
+
+
